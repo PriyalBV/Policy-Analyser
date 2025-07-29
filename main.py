@@ -77,4 +77,4 @@ iface = gr.Interface(
     description="Ask questions related to a policy document. The model will extract clauses, make a decision, and explain it."
 )
 
-iface.launch()
+iface.launch(share=True)
